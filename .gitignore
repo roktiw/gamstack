@@ -1,0 +1,19 @@
+# Ignore node_modules and other common folders
+node_modules/
+.DS_Store
+
+# Ignore output files
+output/*.html
+
+# Ignore system files
+*.log
+*.tmp
+*.swp
+
+# Ignore macOS specific files
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# Ignore VSCode specific files
+.vscode/
