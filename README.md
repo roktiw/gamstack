@@ -13,11 +13,11 @@ No coding skills needed. No complicated setup. Just write, push, and publish!
 
 | ⛵ **Creators** | 💻 **Developers** |
 |----------------------------|----------------------------|
-| 🧠 Lifehackers & tool-switchers – jumping between Notion, Obsidian, Apple Notes, Ulysses but still searching for that perfect flow | 🤖 AI vibe coders, indie devs & no-code hackers – perfect for automating your project’s website or content site |
-| ✍️ Bloggers & writers – focused on flow, not config | 🛠️ Developers & DevOps – need zero-maintenance, Git-powered release notes & documentation |
-| 📱 Social media users – want to go beyond FITstack (Facebook, Instagram, TikTok) and own a personal site like in the 90s | 🧠 CTOs, tech leads, doc teams, PMs & technical POs – clean stack for internal docs and team micr
-| 🔎 *Want to learn more?* [💡 Why Use GAMstack? - ⛵ For Creators](#-why-use-gamstack----for-creators) | 🔎 *Want to learn more?* [💡 Why Use GAMstack? - 💻 For Developers](#-why-use-gamstack----for-developers) |
-| 🚀 *Ready to start?* [📌 Setup Using the GitHub Website](#-setup-using-the-github-website) | 🚀 *Ready to start?* [📌 Setup Using Visual Studio Code](#-setup-using-visual-studio-code) |
+| 🧠 **Lifehackers & tool-switchers** – jumping between Notion, Obsidian, Apple Notes, Ulysses but still searching for that perfect flow | 🤖 **AI vibe coders, indie devs & no-code hackers** – perfect for automating your project’s website or content site |
+| ✍️ **Bloggers & writers** – focused on flow, not config | 🛠️ **Developers & DevOps** – need zero-maintenance, Git-powered release notes & documentation |
+| 📱 **Social media users** – want to go beyond FITstack (Facebook, Instagram, TikTok) and own a personal site like in the 90s | 🧠 **CTOs, PMs, TPOs** – clean and secure static sties for your product documentation 
+| 🔎 **Want to learn more?** [💡 Why Use GAMstack? - ⛵ For Creators](#-why-use-gamstack----for-creators) | 🔎 *Want to learn more?* [💡 Why Use GAMstack? - 💻 For Developers](#-why-use-gamstack----for-developers) |
+| 🚀 **Ready to start?** [📌 Setup Using the GitHub Website](#-setup-using-the-github-website) | 🚀 *Ready to start?* [📌 Setup Using Visual Studio Code](#-setup-using-visual-studio-code) |
 
 ---
 
