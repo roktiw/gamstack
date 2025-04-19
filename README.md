@@ -1,7 +1,6 @@
-# 🚀 GAMstack – GitHub Actions + Markdown
+# 🚀 GAMstack – GitHub Actions + Markdown CMS
 
-**GAMstack** is a **rock solid**, **minimalistic**, and **to-the-point** solution  
-for publishing things that matter — without starting a startup.
+**GAMstack** is a **rock solid**, **minimalistic**, and **to-the-point** solution for publishing things that matter — without starting a startup.
   
 *Minimum code, maximum outcomes.*
 *WHAM! BAM! And you have a static page man!*
