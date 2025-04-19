@@ -13,3 +13,5 @@ You will see this file in the `/output/` folder. Yes, you. Reading this file. Tw
 ## See you on the HTML side!
 
 (And don't forget to wave at your Markdown file on the way out. It worked hard to get here.)
+
+Happy hacking!
