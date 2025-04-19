@@ -9,23 +9,19 @@ GAMstack is a simple tool that lets you build and publish website using GitHub n
 
 ### 👥 Who is GAMstack for?
 
-- 🚀 **Beginners, learners, and junior developers** — curious minds exploring GitHub and Markdown who want to publish something without friction and start building projects.  
-- ✍️ **Bloggers, writers, and publishers** — people who want a distraction-free, flow-friendly tool to write and publish online without platform noise.  
-- 📱 **Social media users** — those looking to go beyond FILstack (Facebook, Instagram, LinkedIn) and own their content on the open web.  
-  👉 Start here: [Setup Using GitHub Website](#-setup-using-the-github-website)  
-  💡 Learn why: [Why Use GAMstack? – for Beginners](#-why-use-gamstack---section-for-beginners)
-
-- 👨‍💻 **Developers and technical creators** — building side-projects, SaaS landing pages, or personal sites with full control and no build-time headaches.  
-- 🛠️ **DevOps and infrastructure folks** — who appreciate CI/CD, GitOps, and zero-maintenance static deployments.  
-- 🧠 **CTOs, tech leads, and doc teams** — looking for a fast, secure, and simple stack to power internal docs, knowledge bases, or microsites.  
-  👉 Start here: [Setup Using Visual Studio Code](#-setup-using-visual-studio-code)  
-  💡 Learn why: [Why Use GAMstack? – for Developers, DevOps and CTO](#-why-use-gamstack---section-for-deveoplers-devops-and-cto)
-
+| ⛵ **Explorers & Creators** | 💻 **Old and New School Tech Folks** |
+|----------------------------|----------------------------|
+| 🧠 Lifehackers & tool-switchers – jumping between Notion, Obsidian, Apple Notes, Ulysses but still searching for that perfect flow | 🤖 AI vibe coders, indie devs & no-code hackers – perfect for automating your project’s website or content site |
+| ✍️ Bloggers & writers – focused on flow, not config | 🛠️ Developers & DevOps – need zero-maintenance, Git-powered release notes & documentation |
+| 📱 Social media users – want to go beyond FITstack (Facebook, Instagram, TikTok) and own a personal site like in the 90s | 🧠 CTOs, tech leads, doc teams, PMs & technical POs – clean stack for internal docs and team micr
+| 🔎 *Want to learn more?* [Read why GAMstack for Explorers →](#-why-use-gamstack---section-for-beginners) | 🔎 *Want to learn more?* [Read why GAMstack for Developers →](#-why-use-gamstack---section-for-deveoplers-devops-and-cto) |
+| 🚀 *Ready to start?* [Start here: GitHub Setup →](#-setup-using-github-website) | 🚀 *Ready to start?* [Start here: VS Code Setup →](#-setup-using-visual-studio-code) |
 ---
 
 # 📚 Table of Contents
 - [🚀 GAMstack: **GitHub Actions** + **Markdown** for easy publishing](#-gamstack-github-actions--markdown-for-easy-publishing)
     - [👥 Who is GAMstack for?](#-who-is-gamstack-for)
+  - [| 🚀 *Ready to start?* Start here: GitHub Setup → | 🚀 *Ready to start?* Start here: VS Code Setup → |](#--ready-to-start-start-here-github-setup----ready-to-start-start-here-vs-code-setup--)
 - [📚 Table of Contents](#-table-of-contents)
   - [✍️ GAMstack - Setup](#️-gamstack---setup)
     - [📌 Setup Using the GitHub Website](#-setup-using-the-github-website)
