@@ -2,33 +2,19 @@
 
 GAMstack is a Markdown-driven Headless CMS and Static Site Generator. It uses a GitHub Repository as a single source of truth for your content. You write in Markdown, push to GitHub, and your site is built and deployed by GitHub Actions and GitHub Pages. No-Code, Low-Code, CI/CD, GitOps, IaC, Serverless, AI-ready. Pure gold! ✨ 
 
-### TL;DR – Core Stack
+**📦 TL;DR – Core Stack**
+- 📝 **GitHub Repository** with **Markdown files** as the source of truth  
+- ⚙️ **GitHub Actions** for automation and deployment
+- 🌐 **GitHub Pages** for hosting
 
-- 📝 **GitHub Repository**  
-  Markdown files live here. It's your content source and single source of truth.
-
-- ⚙️ **GitHub Actions**  
-  Automation handles building, converting Markdown to HTML, and pushing updates.
-
-- 🌐 **GitHub Pages**  
-  Your content gets hosted here — no servers, no config, just live.
-
-### 👥 Who is GAMstack for?
-- 🚀 **For beginners, learners, and curious minds** — aspiring devs, entry-level explorers, and anyone who wants to publish something while learning GitHub and Markdown.
-- ✍️ **For writers, bloggers, and creators** — people who value simplicity, write on social media but want their own site, or need a distraction-free space to publish content.
-- 🧠 **For seasoned pros** — senior devs, DevOps, and technical writers who want a reliable, low-maintenance tool for documentation, project sites, and Git-based publishing.
-
-Happy hacking! 💻✨
-
-# 🚀 GAMstack: **GitHub Actions** + **Markdown** for easy publishing
+**🚦 Quickstart **
+👉 Ready to start? [⬇️Go to Setup](#-gamstack-setup)  
+🤔 Want to learn more first? [⬇️ See Why GAMstack](#-why-gamstack)
 
 ---
 
 # 📚 Table of Contents
 - [� GAMstack: **GitHub Actions** + **Markdown** for easy publishing](#-gamstack-github-actions--markdown-for-easy-publishing)
-    - [TL;DR – Core Stack](#tldr--core-stack)
-    - [👥 Who is GAMstack for?](#-who-is-gamstack-for)
-- [🚀 GAMstack: **GitHub Actions** + **Markdown** for easy publishing](#-gamstack-github-actions--markdown-for-easy-publishing-1)
 - [📚 Table of Contents](#-table-of-contents)
   - [✍️ GAMstack - Setup](#️-gamstack---setup)
     - [📌 GAMstack Setup – Using the GitHub Website Interface](#-gamstack-setup--using-the-github-website-interface)
@@ -45,12 +31,12 @@ Happy hacking! 💻✨
       - [Step 5: Publish Your Website - Test GitHub Pages](#step-5-publish-your-website---test-github-pages-1)
       - [Step 6: Extra - Recommended VS Code Plugins](#step-6-extra---recommended-vs-code-plugins)
   - [💡 GAMstack - Wait but why?](#-gamstack---wait-but-why)
+    - [👥 Who is GAMstack for?](#-who-is-gamstack-for)
     - [🧘‍♂️ Philosophy](#️-philosophy)
       - [✅ DO'S](#-dos)
     - [⚙️ DevOps Style](#️-devops-style)
       - [❌ DON'TS](#-donts)
     - [🕰️ Legacy Software Stacks Roast](#️-legacy-software-stacks-roast)
-  - [🎯 Use Cases](#-use-cases)
   - [🙌 Contributing](#-contributing)
   - [📝 TODO List](#-todo-list)
 
@@ -174,6 +160,11 @@ This step is required only once and must be done via the GitHub website:
 
 ## 💡 GAMstack - Wait but why?
 
+### 👥 Who is GAMstack for?
+- 🚀 **For beginners, learners, and curious minds** — aspiring devs, entry-level explorers, and anyone who wants to publish something while learning GitHub and Markdown.
+- ✍️ **For writers, bloggers, and creators** — people who value simplicity, write on social media but want their own site, or need a distraction-free space to publish content.
+- 🧠 **For seasoned pros** — senior devs, DevOps, and technical writers who want a reliable, low-maintenance tool for documentation, project sites, and Git-based publishing.
+
 ### 🧘‍♂️ Philosophy
 
 #### ✅ DO'S
@@ -215,17 +206,6 @@ GAMstack is the natural and inevitable spiritual successor to legacy software st
 - **Vite Stack** — because Webpack broke your spirit in 2021.
 - **Docs-as-Code** — because your documentation deserves more care than your production code.
 - **Zettelkasten Stack** — because you treat your second brain better than your first.
-
----
-
-## 🎯 Use Cases
-- Documentation that doesn't break
-- Blogs that don't need a React engineer
-- CVs that auto-deploy (no React engineer needed)
-- Personal websites that Just Work™
-- Changelogs that sync themselves
-- Anything that deserves peace, not JavaScript
-> 🤓 *"In a world of over-complicated pipelines, GAMstack is the handwritten note in a sea of automated spam."*
 
 ---
 
