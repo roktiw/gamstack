@@ -1,29 +1,52 @@
-# 🚀 GAMstack: GitHub Actions + Markdown
+# 🚀 GAMstack – Static Site Generator Using GitHub Actions + Markdown
 
 ## 💪 A Powerful Serverless Static Site Generator and CMS
 
-- First static site generator powered 100% by GitHub Actions
-- No local builds. No runtime. Just Markdown, Git, and the Internet.
-- Simply add your `.md` file to the `/input/` folder, commit your changes, and let GitHub Actions handle the rest.
+ - Powered entirely by GitHub Actions – no local builds required.
+ - Write in Markdown, commit to Git, and publish instantly.
+ - Add `.md` files to `/input/`, push, and let GitHub Actions do the rest.
 
-Happy Hacking! 
+Happy hacking! 💻✨
 
 ---
 
-## ✍️ Start Your Blog, Website, or Creative Adventure
+# Table of Contents
 
-### Prerequisites
+- [🚀 GAMstack – Static Site Generator Using GitHub Actions + Markdown](#-gamstack--static-site-generator-using-github-actions--markdown)
+  - [💪 A Powerful Serverless Static Site Generator and CMS](#-a-powerful-serverless-static-site-generator-and-cms)
+- [Table of Contents](#table-of-contents)
+  - [✍️ GAMstack - Setup](#️-gamstack---setup)
+    - [📌 GAMstack Setup – Browser using GitHub Portal](#-gamstack-setup--browser-using-github-portal)
+      - [Step 1: Clone the GAMstack Repository](#step-1-clone-the-gamstack-repository)
+      - [Step 2: Navigate to the `/input/` Folder](#step-2-navigate-to-the-input-folder)
+      - [Step 3: Commit Changes and Push](#step-3-commit-changes-and-push)
+      - [Step 4: Publish Your Website - Set Up GitHub Pages](#step-4-publish-your-website---set-up-github-pages)
+      - [Step 5: Publish Your Website - Test GitHub Pages](#step-5-publish-your-website---test-github-pages)
+    - [📌 GAMstack Setup – Using Visual Studio Code](#-gamstack-setup--using-visual-studio-code)
+      - [1. Install VS Code](#1-install-vs-code)
+      - [2. Edit Markdown Files](#2-edit-markdown-files)
+      - [3. Commit and Push](#3-commit-and-push)
+      - [4. Extra - Recommended vscode plugins](#4-extra---recommended-vscode-plugins)
+        - [✅ GitHub Repositories](#-github-repositories)
+        - [✅ GitLens](#-gitlens)
+        - [✅ Prettier – Code Formatter](#-prettier--code-formatter)
+        - [✅ Code Spell Checker](#-code-spell-checker)
+        - [✍️ Markdown Editing Support](#️-markdown-editing-support)
+          - [✍️ Markdown All in One](#️-markdown-all-in-one)
+          - [✍️ Grammarly for VS Code (optional)](#️-grammarly-for-vs-code-optional)
+  - [GAMstack - Wait but why?](#gamstack---wait-but-why)
+    - [🧘‍♂️ Philosophy](#️-philosophy)
+      - [DON'TS](#donts)
+      - [DO'S](#dos)
+    - [Because Legacy Software Stacks are not cool anymore](#because-legacy-software-stacks-are-not-cool-anymore)
+  - [🎯 Use Cases](#-use-cases)
+  - [🙌 Contributing](#-contributing)
 
-1. **Create a GitHub Account**  
-   If you don't have one, sign up at [GitHub Signup](https://github.com/signup).
+---
 
-2. **Sign In to GitHub**  
-   Log in to your account at [GitHub Login](https://github.com/login).
+## ✍️ GAMstack - Setup
 
-3. **Visit My GitHub Profile**  
-   Check out my profile at [GitHub Profile](https://github.com/roktiw).
-
-### Setup
+### 📌 GAMstack Setup – Browser using GitHub Portal
 
 #### Step 1: Clone the GAMstack Repository
 
@@ -84,12 +107,67 @@ This step is required only once.
 
 ---
 
+### 📌 GAMstack Setup – Using Visual Studio Code
+
+#### 1. Install VS Code
+
+Download and install VS Code from: [https://code.visualstudio.com](https://code.visualstudio.com)
+
+#### 2. Edit Markdown Files
+
+Go to the `/input/` folder and create or edit `.md` files. Use `Ctrl+B` to bold, `Ctrl+I` to italicize, etc.
+
+#### 3. Commit and Push
+
+You can use the Source Control tab in VS Code or the terminal to commit changes:
+
+```bash
+git add .
+git commit -m "Add my first post"
+git push
+```
+
+GitHub Actions will automatically build and publish your changes.
+
+#### 4. Extra - Recommended vscode plugins
+
+##### ✅ [GitHub Repositories](https://marketplace.visualstudio.com/items?itemName=github.vscode-pull-request-github)
+Work directly with GitHub without cloning.
+
+##### ✅ [GitLens](https://marketplace.visualstudio.com/items?itemName=eamodio.gitlens)
+Understand Git history and contributions.
+
+##### ✅ [Prettier – Code Formatter](https://marketplace.visualstudio.com/items?itemName=esbenp.prettier-vscode)
+Auto-formats Markdown and code.
+
+##### ✅ [Code Spell Checker](https://marketplace.visualstudio.com/items?itemName=streetsidesoftware.code-spell-checker)
+Highlights spelling issues in Markdown and comments.  
+To support your language (e.g. Polish), install a matching dictionary: `Code Spell Checker: Polish`.
+
+##### ✍️ Markdown Editing Support
+
+###### ✍️ [Markdown All in One](https://marketplace.visualstudio.com/items?itemName=yzhang.markdown-all-in-one)
+Shortcuts, TOC, preview, and formatting tools.
+
+| Shortcut                                 | Action          | Output / Example             |
+|------------------------------------------|-----------------|------------------------------|
+| `Ctrl+B` / `Cmd+B`                       | Bold            | `**text**`                   |
+| `Ctrl+I` / `Cmd+I`                       | Italic          | `*text*`                     |
+| `Ctrl+Shift+B`                           | Code block      | ````` (fenced block)         |
+| `Ctrl+Shift+1` to `Ctrl+Shift+6`         | Headings        | `#` to `######`              |
+| `Ctrl+V` with text selected + URL in clipboard | Insert link     | `[text](https://example.com)` |
+
+###### ✍️ [Grammarly for VS Code](https://marketplace.visualstudio.com/items?itemName=znck.grammarly) (optional)
+Grammar and style checking in English.
+
+---
+
 *Minimal code, maximum impact.*
 *WHAM! BAM! And you have a static page, man!*
 
 ---
 
-## Why GAMstack?
+## GAMstack - Wait but why?
 
 ### 🧘‍♂️ Philosophy
 
@@ -103,7 +181,7 @@ This step is required only once.
 - GitHub Actions for automation ⚙️  
 - GitHub Pages for deployment 🌐
 
-### Legacy Software Stacks Are Outdated
+### Because Legacy Software Stacks are not cool anymore
 GAMstack is the natural and inevitable spiritual successor to legacy software stacks such as:
 
 - **JAMstack** (JavaScript, APIs, and Markup) — because JavaScript is bloated and Markdown was doing just fine.
