@@ -1,0 +1,65 @@
+name: gam-stack-worker
+
+on:
+  push:
+    paths:
+      - 'input/*.md'
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  convert-and-generate:
+    runs-on: ubuntu-latest
+
+    steps:
+    - name: Checkout repository
+      uses: actions/checkout@v3
+
+    - name: Set up Node.js
+      uses: actions/setup-node@v3
+      with:
+        node-version: '16'
+
+    - name: Install markdown-to-html converter and Pandoc
+      run: |
+        npm install -g markdown-it-cli
+        sudo apt-get update
+        sudo apt-get install -y pandoc
+
+    - name: Convert Markdown to HTML
+      run: |
+        mkdir -p output
+        for file in input/*.md; do
+          output_file="output/$(basename "${file%.md}.html")"
+          markdown-it "$file" > "$output_file"
+        done
+
+    - name: Generate New Index.html
+      run: |
+        echo "<!DOCTYPE html>" > index.html
+        echo "<html>" >> index.html
+        echo "<head><title>GAMstack Website</title></head>" >> index.html
+        echo "<body>" >> index.html
+        echo "<h1>GAMstack Website</h1>" >> index.html
+        echo "<ul>" >> index.html
+        for file in output/*.html; do
+          filename=$(basename "$file")
+          echo "<li><a href='output/$filename'>$filename</a></li>" >> index.html
+        done
+        echo "</ul>" >> index.html
+        echo "</body>" >> index.html
+        echo "</html>" >> index.html
+
+    - name: Commit and Push Changes
+      run: |
+        if ls output/*.html 1> /dev/null 2>&1; then
+          git config --global user.name "github-actions[bot]"
+          git config --global user.email "github-actions[bot]@users.noreply.github.com"
+          git add index.html output/*.html
+          git commit -m "Convert Markdown to HTML and Generate Index [GitHub Actions]"
+          git push
+        else
+          echo "No HTML files to commit."
+        fi
