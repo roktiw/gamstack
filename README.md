@@ -1,16 +1,34 @@
-# 🚀 GAMstack = GitHub Actions + Markdown | GitHub Native CMS and Serverless Static Site Generator**
+# 🚀 GAMstack: **GitHub Actions** + **Markdown** for easy publishing
 
-- 📝 GitHub Repository with Markdown files as the source of truth 
-- ⚙️ GitHub Actions for automation and deployement
-- 🌐 GitHub Pages for deployment
+GAMstack is a Markdown-driven Headless CMS and Static Site Generator. It uses a GitHub Repository as a single source of truth for your content. You write in Markdown, push to GitHub, and your site is built and deployed by GitHub Actions and GitHub Pages. No-Code, Low-Code, CI/CD, GitOps, IaC, Serverless, AI-ready. Pure gold! ✨ 
+
+### TL;DR – Core Stack
+
+- 📝 **GitHub Repository**  
+  Markdown files live here. It's your content source and single source of truth.
+
+- ⚙️ **GitHub Actions**  
+  Automation handles building, converting Markdown to HTML, and pushing updates.
+
+- 🌐 **GitHub Pages**  
+  Your content gets hosted here — no servers, no config, just live.
+
+### 👥 Who is GAMstack for?
+- 🚀 **For beginners, learners, and curious minds** — aspiring devs, entry-level explorers, and anyone who wants to publish something while learning GitHub and Markdown.
+- ✍️ **For writers, bloggers, and creators** — people who value simplicity, write on social media but want their own site, or need a distraction-free space to publish content.
+- 🧠 **For seasoned pros** — senior devs, DevOps, and technical writers who want a reliable, low-maintenance tool for documentation, project sites, and Git-based publishing.
 
 Happy hacking! 💻✨
+
+# 🚀 GAMstack: **GitHub Actions** + **Markdown** for easy publishing
 
 ---
 
 # 📚 Table of Contents
-
-- [🚀 GAMstack = GitHub Actions + Markdown | GitHub Native CMS and Serverless Static Site Generator\*\*](#-gamstack--github-actions--markdown--github-native-cms-and-serverless-static-site-generator)
+- [� GAMstack: **GitHub Actions** + **Markdown** for easy publishing](#-gamstack-github-actions--markdown-for-easy-publishing)
+    - [TL;DR – Core Stack](#tldr--core-stack)
+    - [👥 Who is GAMstack for?](#-who-is-gamstack-for)
+- [🚀 GAMstack: **GitHub Actions** + **Markdown** for easy publishing](#-gamstack-github-actions--markdown-for-easy-publishing-1)
 - [📚 Table of Contents](#-table-of-contents)
   - [✍️ GAMstack - Setup](#️-gamstack---setup)
     - [📌 GAMstack Setup – Using the GitHub Website Interface](#-gamstack-setup--using-the-github-website-interface)
@@ -29,6 +47,7 @@ Happy hacking! 💻✨
   - [💡 GAMstack - Wait but why?](#-gamstack---wait-but-why)
     - [🧘‍♂️ Philosophy](#️-philosophy)
       - [✅ DO'S](#-dos)
+    - [⚙️ DevOps Style](#️-devops-style)
       - [❌ DON'TS](#-donts)
     - [🕰️ Legacy Software Stacks Roast](#️-legacy-software-stacks-roast)
   - [🎯 Use Cases](#-use-cases)
@@ -143,6 +162,8 @@ This step is required only once and must be done via the GitHub website:
 - ✅ [GitLens](https://marketplace.visualstudio.com/items?itemName=eamodio.gitlens): Understand Git history and contributions.
 - ✅ [Prettier – Code Formatter](https://marketplace.visualstudio.com/items?itemName=esbenp.prettier-vscode): Auto-formats Markdown and code.
 - ✅ [Code Spell Checker](https://marketplace.visualstudio.com/items?itemName=streetsidesoftware.code-spell-checker): Highlights spelling issues in Markdown and comments.
+- ✅ [GitHub Actions](https://marketplace.visualstudio.com/items?itemName=GitHub.vscode-github-actions): Manage and visualize GitHub Actions workflows directly in VS Code.
+- ✅ [Act](https://marketplace.visualstudio.com/items?itemName=me-dutour-mathieu.vscode-act): Run GitHub Actions locally in your terminal for testing and debugging.
 
 ---
 
@@ -159,6 +180,13 @@ This step is required only once and must be done via the GitHub website:
  - Powered entirely by GitHub Actions – no local builds required.
  - Write in Markdown, commit to Git, and publish instantly.
  - Add `.md` files to `/input/`, push, and let GitHub Actions do the rest.
+
+### ⚙️ DevOps Style
+GAMstack embodies DevOps principles by:
+- Automating build and deployment processes using GitHub Actions.
+- Leveraging Continuous Integration/Continuous Delivery (CI/CD) for instant publishing of changes.
+- Following GitOps best practices—using Git as the single source of truth for both content and configuration.
+- Treating infrastructure as code (IaC), with workflows and configurations defined clearly in YAML.
 
 #### ❌ DON'TS
 - No microservices.  
@@ -209,6 +237,7 @@ Pull requests are welcome—only if they make things simpler.
 
 ## 📝 TODO List
 
+- [ ] 3 repos: mini (core), stable, -dev
 - [ ] Ensure error handling for invalid Markdown syntax or missing files in the Markdown-to-HTML conversion script.
 - [ ] Add a script or GitHub Action to clean the `output/` folder before generating new files.
 - [ ] Include a test suite to verify Markdown-to-HTML conversion.
