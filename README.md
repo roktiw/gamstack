@@ -1,6 +1,6 @@
 # 🚀 GAMstack – Static Site Generator Using GitHub Actions + Markdown
 
-## 💪 A Powerful Serverless Static Site Generator and CMS
+**💪 A Powerful Serverless Static Site Generator and CMS**
 
  - Powered entirely by GitHub Actions – no local builds required.
  - Write in Markdown, commit to Git, and publish instantly.
@@ -13,10 +13,9 @@ Happy hacking! 💻✨
 # Table of Contents
 
 - [🚀 GAMstack – Static Site Generator Using GitHub Actions + Markdown](#-gamstack--static-site-generator-using-github-actions--markdown)
-  - [💪 A Powerful Serverless Static Site Generator and CMS](#-a-powerful-serverless-static-site-generator-and-cms)
 - [Table of Contents](#table-of-contents)
   - [✍️ GAMstack - Setup](#️-gamstack---setup)
-    - [📌 GAMstack Setup – Browser using GitHub Portal](#-gamstack-setup--browser-using-github-portal)
+    - [📌 GAMstack Setup – Using the GitHub Website Interfac](#-gamstack-setup--using-the-github-website-interfac)
       - [Step 1: Clone the GAMstack Repository](#step-1-clone-the-gamstack-repository)
       - [Step 2: Navigate to the `/input/` Folder](#step-2-navigate-to-the-input-folder)
       - [Step 3: Commit Changes and Push](#step-3-commit-changes-and-push)
@@ -46,21 +45,13 @@ Happy hacking! 💻✨
 
 ## ✍️ GAMstack - Setup
 
-### 📌 GAMstack Setup – Browser using GitHub Portal
+### 📌 GAMstack Setup – Using the GitHub Website Interfac
 
 #### Step 1: Clone the GAMstack Repository
 
-**Using the GitHub Website Interface:**
 1. Visit the [GAMstack Repository](https://github.com/roktiw/gamstack/).
 2. Click **Fork** in the upper-right corner, next to the Star button.
 3. Click **Create fork**.
-
-**For Advanced Users:**
-Clone the repository using your preferred tool:
-
-```bash
-git clone https://github.com/roktiw/gamstack.git
-```
 
 #### Step 2: Navigate to the `/input/` Folder
 
@@ -68,8 +59,7 @@ git clone https://github.com/roktiw/gamstack.git
 - All files should be written in Markdown.
 - For a quick reference to Markdown syntax, check out [this Markdown cheat sheet](https://www.markdownguide.org/cheat-sheet/).
 
-**Using the GitHub Website Interface:**
-1. Write your first note in Markdown or edit the `how-to-input.md` file.
+1. Write your first note in Markdown or edit exiting `.md` file.
 2. Save the file.
 
 Example Markdown post:
@@ -78,15 +68,10 @@ Example Markdown post:
 
 This is the first post on my website using the phenomenal GAMstack.
 ```
-
 #### Step 3: Commit Changes and Push
 
-**Using the GitHub Website Interface:**
-No additional steps are required.
-
-**For Advanced Users:**
-1. Commit your changes.
-2. Push your changes.
+1. Navigate to the file you edited or added.
+2. Click **Commit changes** to save your updates.
 
 - The `.github/workflow/gamstack.yml` script will convert `.md` files in the `/input/` folder to `.html` files in the `/output/` folder.
 - It will also regenerate the `index.html` file for your website and place it in the main repository folder.
