@@ -1,51 +1,45 @@
-# 🚀 GAMstack – Static Site Generator Using GitHub Actions + Markdown
+# 🚀 GAMstack = GitHub Actions + Markdown | GitHub Native CMS and Serverless Static Site Generator**
 
-**💪 A Powerful Serverless Static Site Generator and CMS**
-
- - Powered entirely by GitHub Actions – no local builds required.
- - Write in Markdown, commit to Git, and publish instantly.
- - Add `.md` files to `/input/`, push, and let GitHub Actions do the rest.
+- 📝 GitHub Repository with Markdown files as the source of truth 
+- ⚙️ GitHub Actions for automation and deployement
+- 🌐 GitHub Pages for deployment
 
 Happy hacking! 💻✨
 
 ---
 
-# Table of Contents
+# 📚 Table of Contents
 
-- [🚀 GAMstack – Static Site Generator Using GitHub Actions + Markdown](#-gamstack--static-site-generator-using-github-actions--markdown)
-- [Table of Contents](#table-of-contents)
+- [🚀 GAMstack = GitHub Actions + Markdown | GitHub Native CMS and Serverless Static Site Generator\*\*](#-gamstack--github-actions--markdown--github-native-cms-and-serverless-static-site-generator)
+- [📚 Table of Contents](#-table-of-contents)
   - [✍️ GAMstack - Setup](#️-gamstack---setup)
-    - [📌 GAMstack Setup – Using the GitHub Website Interfac](#-gamstack-setup--using-the-github-website-interfac)
+    - [📌 GAMstack Setup – Using the GitHub Website Interface](#-gamstack-setup--using-the-github-website-interface)
       - [Step 1: Clone the GAMstack Repository](#step-1-clone-the-gamstack-repository)
       - [Step 2: Navigate to the `/input/` Folder](#step-2-navigate-to-the-input-folder)
       - [Step 3: Commit Changes and Push](#step-3-commit-changes-and-push)
       - [Step 4: Publish Your Website - Set Up GitHub Pages](#step-4-publish-your-website---set-up-github-pages)
       - [Step 5: Publish Your Website - Test GitHub Pages](#step-5-publish-your-website---test-github-pages)
     - [📌 GAMstack Setup – Using Visual Studio Code](#-gamstack-setup--using-visual-studio-code)
-      - [1. Install VS Code](#1-install-vs-code)
-      - [2. Edit Markdown Files](#2-edit-markdown-files)
-      - [3. Commit and Push](#3-commit-and-push)
-      - [4. Extra - Recommended vscode plugins](#4-extra---recommended-vscode-plugins)
-        - [✅ GitHub Repositories](#-github-repositories)
-        - [✅ GitLens](#-gitlens)
-        - [✅ Prettier – Code Formatter](#-prettier--code-formatter)
-        - [✅ Code Spell Checker](#-code-spell-checker)
-        - [✍️ Markdown Editing Support](#️-markdown-editing-support)
-          - [✍️ Markdown All in One](#️-markdown-all-in-one)
-          - [✍️ Grammarly for VS Code (optional)](#️-grammarly-for-vs-code-optional)
-  - [GAMstack - Wait but why?](#gamstack---wait-but-why)
+      - [Step 1: Clone the GAMstack Repository](#step-1-clone-the-gamstack-repository-1)
+      - [Step 2: Navigate to the `/input/` Folder](#step-2-navigate-to-the-input-folder-1)
+      - [Step 3: Commit Changes and Push](#step-3-commit-changes-and-push-1)
+      - [Step 4: Publish Your Website - Set Up GitHub Pages](#step-4-publish-your-website---set-up-github-pages-1)
+      - [Step 5: Publish Your Website - Test GitHub Pages](#step-5-publish-your-website---test-github-pages-1)
+      - [Step 6: Extra - Recommended VS Code Plugins](#step-6-extra---recommended-vs-code-plugins)
+  - [💡 GAMstack - Wait but why?](#-gamstack---wait-but-why)
     - [🧘‍♂️ Philosophy](#️-philosophy)
-      - [DON'TS](#donts)
-      - [DO'S](#dos)
-    - [Because Legacy Software Stacks are not cool anymore](#because-legacy-software-stacks-are-not-cool-anymore)
+      - [✅ DO'S](#-dos)
+      - [❌ DON'TS](#-donts)
+    - [🕰️ Legacy Software Stacks Roast](#️-legacy-software-stacks-roast)
   - [🎯 Use Cases](#-use-cases)
   - [🙌 Contributing](#-contributing)
+  - [📝 TODO List](#-todo-list)
 
 ---
 
 ## ✍️ GAMstack - Setup
 
-### 📌 GAMstack Setup – Using the GitHub Website Interfac
+### 📌 GAMstack Setup – Using the GitHub Website Interface
 
 #### Step 1: Clone the GAMstack Repository
 
@@ -94,56 +88,61 @@ This step is required only once.
 
 ### 📌 GAMstack Setup – Using Visual Studio Code
 
-#### 1. Install VS Code
+#### Step 1: Clone the GAMstack Repository
 
-Download and install VS Code from: [https://code.visualstudio.com](https://code.visualstudio.com)
+1. Open a terminal in Visual Studio Code or your system terminal.
+2. Clone the repository using the following command:
+   ```bash
+   git clone https://github.com/roktiw/gamstack.git
+   ```
+3. Navigate to the cloned repository:
+   ```bash
+   cd gamstack
+   ```
 
-#### 2. Edit Markdown Files
+#### Step 2: Navigate to the `/input/` Folder
 
-Go to the `/input/` folder and create or edit `.md` files. Use `Ctrl+B` to bold, `Ctrl+I` to italicize, etc.
+- Open the `/input/` folder in VS Code.
+- This folder serves as the input directory for your website files.
+- All files should be written in Markdown.
 
-#### 3. Commit and Push
+Example Markdown post:
+```markdown
+# Hello World
 
-You can use the Source Control tab in VS Code or the terminal to commit changes:
-
-```bash
-git add .
-git commit -m "Add my first post"
-git push
+This is the first post on my website using the phenomenal GAMstack.
 ```
 
-GitHub Actions will automatically build and publish your changes.
+#### Step 3: Commit Changes and Push
 
-#### 4. Extra - Recommended vscode plugins
+1. Use the Source Control tab in VS Code or the terminal to stage and commit changes:
+   ```bash
+   git add .
+   git commit -m "Add my first post"
+   git push
+   ```
+2. GitHub Actions will automatically build and publish your changes.
 
-##### ✅ [GitHub Repositories](https://marketplace.visualstudio.com/items?itemName=github.vscode-pull-request-github)
-Work directly with GitHub without cloning.
+#### Step 4: Publish Your Website - Set Up GitHub Pages
 
-##### ✅ [GitLens](https://marketplace.visualstudio.com/items?itemName=eamodio.gitlens)
-Understand Git history and contributions.
+This step is required only once and must be done via the GitHub website:
 
-##### ✅ [Prettier – Code Formatter](https://marketplace.visualstudio.com/items?itemName=esbenp.prettier-vscode)
-Auto-formats Markdown and code.
+1. Go to your cloned GAMstack repository on GitHub: `github.com/YOUR_GITHUB_USERNAME/gamstack`.
+2. Navigate to the repository **⚙️ Settings** in the upper-right corner.
+3. In the **Repository name** section, rename `gamstack` to `YOUR_GITHUB_USERNAME.github.io`.
+4. Click **Rename**.
 
-##### ✅ [Code Spell Checker](https://marketplace.visualstudio.com/items?itemName=streetsidesoftware.code-spell-checker)
-Highlights spelling issues in Markdown and comments.  
-To support your language (e.g. Polish), install a matching dictionary: `Code Spell Checker: Polish`.
+#### Step 5: Publish Your Website - Test GitHub Pages
 
-##### ✍️ Markdown Editing Support
+1. Edit any existing file in the `/input/` folder and save/commit.
+2. **Verify Deployment**: After a few moments, your site will be live at `https://YOUR_GITHUB_USERNAME.github.io/`.
 
-###### ✍️ [Markdown All in One](https://marketplace.visualstudio.com/items?itemName=yzhang.markdown-all-in-one)
-Shortcuts, TOC, preview, and formatting tools.
+#### Step 6: Extra - Recommended VS Code Plugins
 
-| Shortcut                                 | Action          | Output / Example             |
-|------------------------------------------|-----------------|------------------------------|
-| `Ctrl+B` / `Cmd+B`                       | Bold            | `**text**`                   |
-| `Ctrl+I` / `Cmd+I`                       | Italic          | `*text*`                     |
-| `Ctrl+Shift+B`                           | Code block      | ````` (fenced block)         |
-| `Ctrl+Shift+1` to `Ctrl+Shift+6`         | Headings        | `#` to `######`              |
-| `Ctrl+V` with text selected + URL in clipboard | Insert link     | `[text](https://example.com)` |
-
-###### ✍️ [Grammarly for VS Code](https://marketplace.visualstudio.com/items?itemName=znck.grammarly) (optional)
-Grammar and style checking in English.
+- ✅ [GitHub Repositories](https://marketplace.visualstudio.com/items?itemName=github.vscode-pull-request-github): Work directly with GitHub without cloning.
+- ✅ [GitLens](https://marketplace.visualstudio.com/items?itemName=eamodio.gitlens): Understand Git history and contributions.
+- ✅ [Prettier – Code Formatter](https://marketplace.visualstudio.com/items?itemName=esbenp.prettier-vscode): Auto-formats Markdown and code.
+- ✅ [Code Spell Checker](https://marketplace.visualstudio.com/items?itemName=streetsidesoftware.code-spell-checker): Highlights spelling issues in Markdown and comments.
 
 ---
 
@@ -152,21 +151,21 @@ Grammar and style checking in English.
 
 ---
 
-## GAMstack - Wait but why?
+## 💡 GAMstack - Wait but why?
 
 ### 🧘‍♂️ Philosophy
 
-#### DON'TS
+#### ✅ DO'S
+ - Powered entirely by GitHub Actions – no local builds required.
+ - Write in Markdown, commit to Git, and publish instantly.
+ - Add `.md` files to `/input/`, push, and let GitHub Actions do the rest.
+
+#### ❌ DON'TS
 - No microservices.  
 - No overengineering.  
 - No YAML hell.  
 
-#### DO'S
-- Markdown as the source of truth 📝  
-- GitHub Actions for automation ⚙️  
-- GitHub Pages for deployment 🌐
-
-### Because Legacy Software Stacks are not cool anymore
+### 🕰️ Legacy Software Stacks Roast
 GAMstack is the natural and inevitable spiritual successor to legacy software stacks such as:
 
 - **JAMstack** (JavaScript, APIs, and Markup) — because JavaScript is bloated and Markdown was doing just fine.
@@ -205,6 +204,23 @@ GAMstack is the natural and inevitable spiritual successor to legacy software st
 ## 🙌 Contributing
 
 Pull requests are welcome—only if they make things simpler.
+
+---
+
+## 📝 TODO List
+
+- [ ] Ensure error handling for invalid Markdown syntax or missing files in the Markdown-to-HTML conversion script.
+- [ ] Add a script or GitHub Action to clean the `output/` folder before generating new files.
+- [ ] Include a test suite to verify Markdown-to-HTML conversion.
+- [ ] Dynamically generate `index.html` to list all converted HTML files in the `output/` folder.
+- [ ] Add a troubleshooting section to the `README.md` file.
+- [ ] Include instructions for customizing generated HTML files (e.g., styles or scripts).
+- [ ] Add a default CSS file for styling the generated HTML files.
+- [ ] Consider adding localization support for multiple languages.
+- [ ] Add versioning to the project using Git tags.
+- [ ] List external tools or libraries used for Markdown conversion in the `README.md` file.
+- [ ] Add /scripts/ for bash script that will read folder structure in input for Menu on main website
+- [ ] Add /config/ for CSS and HTML templates and config.json with i.e. page title
 
 ---
 

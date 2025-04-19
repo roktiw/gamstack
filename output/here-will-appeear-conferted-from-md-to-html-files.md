@@ -1,1 +1,0 @@
-<!-- This markdown file is a placeholder, patiently waiting for its moment to shine. Feel free to replace it when the real content takes center stage! -->
