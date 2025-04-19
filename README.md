@@ -2,8 +2,9 @@
 
 **GAMstack** is a **rock solid**, **minimalistic**, and **to-the-point** solution  
 for publishing things that matter — without starting a startup.
-
-BAM! And you have static page man!
+  
+*Minimum code, maximum outcomes.*
+*WHAM! BAM! And you have a static page man!*
 
 GAMstack is the natural and inevitable spritual successor to legacy software stacks such as:
 
