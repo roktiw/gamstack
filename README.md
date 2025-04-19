@@ -6,7 +6,7 @@ for publishing things that matter — without starting a startup.
 *Minimum code, maximum outcomes.*
 *WHAM! BAM! And you have a static page man!*
 
-GAMstack is the natural and inevitable spritual successor to legacy software stacks such as:
+GAMstack is the natural and inevitable spiritual successor to legacy software stacks such as:
 
 - **JAMstack** (JavaScript, APIs, and Markup) – because JavaScript is bloated and Markdown was doing just fine.
 - **MACH** (Microservices, API-first, Cloud-native, and Headless) – because microservices are just meetings in disguise.
@@ -79,14 +79,13 @@ Ideal for:
 
 ## 🔄 How It Works
 
-1. **Content Management**:
-   - Store content in `posts/` as Markdown files (`.md`)
-   - Each file = one post
+1. **Content Management System**:
+   - Store content in `input/` as Markdown files (`.md`)
+   - Each file = one post 
 
 2. **GitHub Actions**:
-   - Workflow watches for changes in `posts/`
-   - Runs `update-index.js` to regenerate `index.html`
-   - Converts `.md` to `.html` and stores in `output/`
+   - Workflow blindly converts all `.md` items in folder `input/` to `.html` and outputs into `output/`
+   - GitHub Action regenerates `index.html` with a list of `.html` files
 
 3. **GitHub Pages**:
    - Hosts everything statically
@@ -95,31 +94,38 @@ Ideal for:
 
 ---
 
-## ✍️ Getting Started
+## ✍️ Start your blog, website, or another compulsive ADHD adventure
 
-1. **Clone the repo**:
-   ```bash
-   git clone https://github.com/your-repo/gam-stack.git
-   cd gam-stack
-   ```
+1. **Clone this repo**:
 
-2. **Add a new post**:
-   ```markdown
-   # My New Post
-
-   Markdown is cool.
-   ```
+2. **Add a `.md` file to `/input/` folder**:
 
 3. **Commit & Push**:
-   ```bash
-   git add .
-   git commit -m "Add new post"
-   git push
-   ```
 
-4. **Profit**:
+4. **HTML page will appear in `/output/` and `index.html` will be regenerated with a list of all pages**
+
+5. **Profit**:
    - Open your GitHub Pages URL
    - Bask in the glow of functional minimalism
+
+---
+
+## 🌐 Setting Up GitHub Pages
+
+1. **Enable your GitHub Pages**:
+   - Clone GAMstack repository https://github.com/roktiw/gamstack
+   - Go to your cloned GAMstack repository on GitHub portal.
+   - Go to repository `Settings`
+   - Rename your `Repository name` to `YOUR_GITHUB_USERNAME.github.io`
+   - Click "Rename" button.
+
+   If sth not works, check out official GitHub Pages documentation https://docs.github.com/en/pages/quickstart
+
+2. **Verify Deployment**:
+   - After a few moments, your site will be live at `https://OUR_GITHUB_USERNAME.github.io/`.
+
+3. **Write a new note every day**
+   - Writing helps your brain to rewire and makes you live longer 
 
 ---
 
@@ -129,5 +135,5 @@ PRs welcome. But only if they make things simpler.
 
 ---
 
-© Wiktor Świtkowski 2025 – [GAMstack™](https://github.com/wiktor-switkowski)  
-Built with love, Markdown and passive aggression toward bloated tooling.
+© Wiktor Świątkowski 2025 – [GAMstack™](https://github.com/wiktor-switkowski)  
+Built with love, in Warsaw, using Markdown and passive aggression toward bloated tooling.

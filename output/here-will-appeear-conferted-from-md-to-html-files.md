@@ -1,3 +1,1 @@
-# Yes
-
-It is that simple!
+this markdown file is just a placeholder, like a movie extra waiting for its big break. Feel free to kick it out when the real star arrives!
