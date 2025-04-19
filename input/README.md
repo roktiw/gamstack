@@ -256,4 +256,4 @@ GAMstack is a Markdown-driven Headless CMS and Static Site Generator. It uses a 
 © [Wiktor Świątkowski](http://roktiw.github.io) 2025 - [GAMstack](https://github.com/roktiw/gamstack)
 Made in Warsaw, Poland with love, focus, music, and a dislike for complicated tech. Happy hacking! 💻✨
 
-m
+mm
