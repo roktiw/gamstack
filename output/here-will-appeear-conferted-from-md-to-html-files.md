@@ -1,1 +1,1 @@
-this markdown file is just a placeholder, like a movie extra waiting for its big break. Feel free to kick it out when the real star arrives!
+<!-- This markdown file is a placeholder, patiently waiting for its moment to shine. Feel free to replace it when the real content takes center stage! -->
